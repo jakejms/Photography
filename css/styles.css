@@ -1,5 +1,6 @@
 .main-nav {
     height: 500px;
+    float: left;
     
 }
 .container {
@@ -9,6 +10,7 @@
     font-size: 60px; 
     margin-top: 50px;
     font-family: 'Oswald', sans-serif;
+    padding-left:40px;
 }
 .nav-list {
     list-style: none;
@@ -22,4 +24,65 @@
 .nav-link {
     text-decoration: none;
     color: black;
+}
+
+.nav-link:hover {
+    color: gray; 
+} 
+
+.social-links {
+    text-decoration: none;
+}
+
+.social-links > .fa {
+    color: black;
+    width: 70px;
+}
+
+.social-links > .fa:hover  {
+    color: gray;
+}
+
+.copy-write {
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif; 
+}
+.image-columns {
+    float:right;
+    width: 60%;
+    position: absolute;
+    left: 340px;
+    margin-top: 6px;
+}
+.left-image {
+    height:595px;
+    width: 47%;
+    float: left;
+    margin-right: 20px;
+}
+
+.iframe-container {
+    float: right;
+    width: 47%;
+    position: absolute;
+    left: 400px;
+    margin-top: 50px; 
+}
+.about-image {
+    float:right;
+    width: 35%;
+    position: absolute;
+    left: 450px;
+    margin-top: 40px;
+}
+
+.about-caption {
+    float:right;
+    width: 35%;
+    position: absolute;
+    left: 600px;
+    margin-top: 330px;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-size: 15px;
 }
