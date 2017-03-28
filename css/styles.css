@@ -1,0 +1,25 @@
+.main-nav {
+    height: 500px;
+    
+}
+.container {
+    
+}
+.main-name {
+    font-size: 60px; 
+    margin-top: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+.nav-list {
+    list-style: none;
+    padding-left:40px;
+    margin-top:50px;
+}
+.nav-item {
+    height: 50px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
